@@ -4,9 +4,9 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className="bg-white shadow-md">
+    <header className="bg-white shadow-lg">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
-        <h1 className="text-3xl font-bold text-gray-800">
+        <h1 className="text-3xl font-semibold text-blue-600">
           Anica Barrios
         </h1>
         <nav>
