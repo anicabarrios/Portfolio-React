@@ -6,6 +6,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import Footer from './components/footer';
 
 const App = () => {
   return (
@@ -21,9 +22,7 @@ const App = () => {
             <Route path="/" element={<About />} />
           </Routes>
         </main>
-        <footer className="bg-gray-800 text-white p-4 text-center">
-          © 2024 Anica Barrios
-        </footer>
+        <Footer />
       </div>
     </Router>
   );

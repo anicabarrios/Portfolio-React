@@ -4,7 +4,7 @@ import React from 'react';
 const About = () => {
   return (
     <div
-      className="flex justify-center items-center min-h-screen bg-cover bg-center"
+      className="flex justify-center items-center min-h-[75vh] bg-cover bg-center"
       style={{ backgroundImage: 'url(/images/about.jpg)' }}
     >
       <div className="w-11/12 max-w-4xl bg-white bg-opacity-70 backdrop-saturate-150 shadow-2xl rounded-xl overflow-hidden flex flex-col md:flex-row transform hover:scale-105 transition duration-500">
