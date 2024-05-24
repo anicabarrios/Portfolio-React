@@ -4,8 +4,7 @@ const About = () => {
   return (
     <div
       className="flex justify-center items-center min-h-[75vh] bg-cover bg-center"
-      // style={{ backgroundImage: 'url(/images/about.jpg)' }}
-    >
+         >
       <div className="w-11/12 max-w-4xl bg-white bg-opacity-70 backdrop-saturate-150 shadow-2xl rounded-xl overflow-hidden flex flex-col md:flex-row transform hover:scale-105 transition duration-500">
         <div className="md:w-2/5 relative">
           <img
@@ -20,7 +19,7 @@ const About = () => {
               Anica Barrios
             </h1>
             <p className="text-lg leading-relaxed mb-4 text-gray-800 font-roboto">
-              Hi! I'm Anica Barrios, a passionate web developer with a knack for crafting elegant and efficient web applications. With a strong background in both frontend and backend development, I strive to create seamless user experiences and robust solutions. Outside of coding, I enjoy exploring new technologies, reading, and spending time outdoors.
+            Welcome! I'm Anica Barrios, a passionate full-stack web developer with a talent for creating engaging and efficient web applications. My skills in both frontend and backend development allow me to deliver comprehensive digital solutions. In my free time, I love exploring new technologies, getting lost in books, enjoying the outdoors, and playing with my dog.
             </p>
             <div className="flex space-x-4">
               <a href="https://www.linkedin.com/in/anica-barrios/" className="text-violet-500 hover:text-violet-700 transition duration-300">

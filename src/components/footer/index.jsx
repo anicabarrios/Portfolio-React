@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaStackOverflow } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -23,6 +23,15 @@ const Footer = () => {
             aria-label="LinkedIn"
           >
             <FaLinkedin size={30} />
+          </a>
+          <a
+            href="https://x.com/BarriosAnica"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-violet-500 hover:text-violet-700 transition duration-300"
+            aria-label="Twitter"
+          >
+            <FaTwitter size={30} />
           </a>
         </div>
         <p className="text-violet-500 text-sm">&copy; 2024 Anica Barrios. All rights reserved.</p>
