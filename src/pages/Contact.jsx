@@ -1,4 +1,3 @@
-// src/components/Contact.jsx
 import React, { useState } from 'react';
 
 const Contact = () => {
@@ -74,9 +73,9 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-[75vh] bg-gray-100 py-10">
-      <div className="w-11/12 max-w-2xl bg-white shadow-lg rounded-lg overflow-hidden p-8 transform hover:scale-105 transition duration-500">
-        <h1 className="text-4xl font-bold mb-6 text-gray-800 text-center font-raleway">
+    <div className="flex justify-center items-center min-h-[70vh] bg-cover bg-center">
+      <div className="w-11/12 max-w-2xl bg-white bg-opacity-70 backdrop-saturate-150 shadow-2xl rounded-xl overflow-hidden p-10 transform hover:scale-105 transition duration-500">
+        <h1 className="text-4xl font-semibold mb-6 text-violet-500 text-center font-raleway">
           Contact
         </h1>
         <form onSubmit={handleSubmit} noValidate>
@@ -91,7 +90,7 @@ const Contact = () => {
               value={formData.name}
               onChange={handleChange}
               onBlur={() => handleBlur('name')}
-              className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-violet-500"
             />
             {errors.name && (
               <p className="text-red-500 text-sm mt-1">{errors.name}</p>
@@ -108,7 +107,7 @@ const Contact = () => {
               value={formData.email}
               onChange={handleChange}
               onBlur={() => handleBlur('email')}
-              className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-violet-500"
             />
             {errors.email && (
               <p className="text-red-500 text-sm mt-1">{errors.email}</p>
@@ -124,7 +123,7 @@ const Contact = () => {
               value={formData.message}
               onChange={handleChange}
               onBlur={() => handleBlur('message')}
-              className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-violet-500"
               rows="5"
             ></textarea>
             {errors.message && (
@@ -134,7 +133,7 @@ const Contact = () => {
           <div className="flex justify-center">
             <button
               type="submit"
-              className="bg-blue-600 text-white py-3 px-6 rounded-lg text-lg font-bold shadow-lg hover:bg-blue-700 transition duration-300"
+              className="bg-violet-500 text-white py-3 px-6 rounded-lg text-lg font-bold shadow-lg hover:bg-violet-700 transition duration-300"
             >
               Submit
             </button>
@@ -146,3 +145,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

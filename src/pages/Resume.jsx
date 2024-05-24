@@ -1,4 +1,3 @@
-// src/components/Resume.jsx
 import React from 'react';
 
 const proficiencies = [
@@ -20,16 +19,16 @@ const proficiencies = [
 
 const Resume = () => {
   return (
-    <div className="flex justify-center items-center min-h-[80vh] bg-gray-100 py-10">
-      <div className="w-11/12 max-w-3xl bg-white shadow-lg rounded-lg overflow-hidden p-8 transform hover:scale-105 transition duration-500">
-        <h1 className="text-4xl font-bold mb-6 text-gray-800 text-center font-raleway">
+    <div className="flex justify-center items-center min-h-[75vh] bg-cover bg-center">
+      <div className="w-11/12 max-w-3xl bg-white bg-opacity-70 backdrop-saturate-150 shadow-2xl rounded-xl overflow-hidden p-10 transform hover:scale-105 transition duration-500">
+        <h1 className="text-4xl font-semibold mb-6 text-violet-500 text-center font-raleway">
           Resume
         </h1>
         <div className="flex flex-col items-center mb-8">
           <a
             href="/path/to/Anica_Barrios_Resume.pdf"
             download
-            className="bg-blue-600 text-white py-3 px-6 rounded-lg text-lg font-bold shadow-lg hover:bg-blue-700 transition duration-300"
+            className="bg-violet-500 text-white py-3 px-6 rounded-lg text-lg font-bold shadow-lg hover:bg-violet-700 transition duration-300"
           >
             Download Resume
           </a>
@@ -40,7 +39,7 @@ const Resume = () => {
             {proficiencies.map((proficiency, index) => (
               <li key={index} className="flex items-center space-x-2">
                 <svg
-                  className="w-5 h-5 text-blue-600"
+                  className="w-5 h-5 text-violet-500"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >

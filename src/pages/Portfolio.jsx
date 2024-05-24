@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Project from '../components/project';
 
@@ -45,10 +44,10 @@ const Portfolio = () => {
   return (
     <div
       className="flex justify-center items-center min-h-[75vh] bg-cover bg-center"
-      style={{ backgroundImage: 'url(/images/portfolio-bg.jpg)' }}
+    
     >
       <div className="w-11/12 max-w-6xl bg-white bg-opacity-70 backdrop-saturate-150 shadow-2xl rounded-xl overflow-hidden p-10 transform hover:scale-105 transition duration-500">
-        <h1 className="text-4xl font-extrabold mb-8 text-blue-600 text-center font-raleway">
+        <h1 className="text-3xl font-semibold mb-8 text-violet-500 text-center font-raleway">
           Portfolio
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
