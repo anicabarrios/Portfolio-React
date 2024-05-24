@@ -1,4 +1,3 @@
-// src/components/Footer.jsx
 import React from 'react';
 import { FaGithub, FaLinkedin, FaStackOverflow } from 'react-icons/fa';
 
@@ -11,7 +10,7 @@ const Footer = () => {
             href="https://github.com/anicabarrios"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-gray-900 transition duration-300"
+            className="text-violet-500 hover:text-violet-700 transition duration-300"
             aria-label="GitHub"
           >
             <FaGithub size={30} />
@@ -20,14 +19,13 @@ const Footer = () => {
             href="https://www.linkedin.com/in/anica-barrios/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-gray-900 transition duration-300"
+            className="text-violet-500 hover:text-violet-700 transition duration-300"
             aria-label="LinkedIn"
           >
             <FaLinkedin size={30} />
           </a>
-        
         </div>
-        <p className="text-gray-500 text-sm">&copy; 2024 Anica Barrios. All rights reserved.</p>
+        <p className="text-violet-500 text-sm">&copy; 2024 Anica Barrios. All rights reserved.</p>
       </div>
     </footer>
   );

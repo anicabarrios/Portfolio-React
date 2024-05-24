@@ -1,4 +1,3 @@
-// src/components/Header.jsx
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
@@ -6,7 +5,7 @@ const Header = () => {
   return (
     <header className="bg-white shadow-lg">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
-        <h1 className="text-3xl font-semibold text-blue-600">
+        <h1 className="text-3xl font-semibold text-violet-500">
           Anica Barrios
         </h1>
         <nav>
@@ -16,8 +15,8 @@ const Header = () => {
                 to="/about"
                 className={({ isActive }) =>
                   isActive
-                    ? 'text-blue-600 border-b-2 border-blue-600 transition duration-300'
-                    : 'text-gray-600 hover:text-blue-600 transition duration-300'
+                    ? 'text-violet-500 border-b-2 border-violet-500 transition duration-300'
+                    : 'text-gray-600 hover:text-violet-500 transition duration-300'
                 }
               >
                 About Me
@@ -28,8 +27,8 @@ const Header = () => {
                 to="/portfolio"
                 className={({ isActive }) =>
                   isActive
-                    ? 'text-blue-600 border-b-2 border-blue-600 transition duration-300'
-                    : 'text-gray-600 hover:text-blue-600 transition duration-300'
+                    ? 'text-violet-500 border-b-2 border-violet-500 transition duration-300'
+                    : 'text-gray-600 hover:text-violet-500 transition duration-300'
                 }
               >
                 Portfolio
@@ -40,8 +39,8 @@ const Header = () => {
                 to="/resume"
                 className={({ isActive }) =>
                   isActive
-                    ? 'text-blue-600 border-b-2 border-blue-600 transition duration-300'
-                    : 'text-gray-600 hover:text-blue-600 transition duration-300'
+                    ? 'text-violet-500 border-b-2 border-violet-500 transition duration-300'
+                    : 'text-gray-600 hover:text-violet-500 transition duration-300'
                 }
               >
                 Resume
@@ -52,8 +51,8 @@ const Header = () => {
                 to="/contact"
                 className={({ isActive }) =>
                   isActive
-                    ? 'text-blue-600 border-b-2 border-blue-600 transition duration-300'
-                    : 'text-gray-600 hover:text-blue-600 transition duration-300'
+                    ? 'text-violet-500 border-b-2 border-violet-500 transition duration-300'
+                    : 'text-gray-600 hover:text-violet-500 transition duration-300'
                 }
               >
                 Contact
