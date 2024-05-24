@@ -52,7 +52,7 @@ You’ll use `vite` to build your portfolio, which will include the following co
 - Tailwind CSS
 
 ## Live Link
-[Live Portfolio]()
+[Live Portfolio](https://main--portfolio-anicabarrios.netlify.app/)
 
 ## Features
 - **Header**: Contains the developer's name and navigation with titles corresponding to different sections of the portfolio.
