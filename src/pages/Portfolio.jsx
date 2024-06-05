@@ -3,6 +3,12 @@ import Project from '../components/project';
 
 const projects = [
   {
+    title: 'DSxpert',
+    imageUrl: '/images/ds.png',
+    deployedUrl: 'https://www.dsxpert.com/',
+    githubUrl: 'https://github.com/anicabarrios/DealerServiceXpert-V2',
+  },
+  {
     title: 'Book Search Engine',
     imageUrl: '/images/book-search.png',
     deployedUrl: 'https://book-search-engine-n6bx.onrender.com/',
@@ -32,12 +38,7 @@ const projects = [
     deployedUrl: 'https://text-editor-pwa-vsbv.onrender.com/',
     githubUrl: 'https://github.com/anicabarrios/Text-Editor-PWA',
   },
-  {
-    title: 'Music Search',
-    imageUrl: '/images/music.png',
-    deployedUrl: 'https://grandnaguszek.github.io/UM-Coding-BC-Group-Project-1/',
-    githubUrl: 'https://github.com/anicabarrios/UM-Coding-BC-Group-Project-1',
-  },
+
 ];
 
 const Portfolio = () => {
