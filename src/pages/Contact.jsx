@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -60,15 +61,22 @@ const Contact = () => {
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
     } else {
-      // Handle form submission logic here
-      alert('Form submitted successfully!');
-      // Reset form fields
-      setFormData({
-        name: '',
-        email: '',
-        message: '',
-      });
-      setErrors({});
+      // Send email using EmailJS
+      emailjs.send('service_79hdjhg', 'template_8eg4c5o', formData, 'IC555p7Y3JunsIvhe')
+        .then((response) => {
+          console.log('SUCCESS!', response.status, response.text);
+          alert('Form submitted successfully!');
+          // Reset form fields
+          setFormData({
+            name: '',
+            email: '',
+            message: '',
+          });
+          setErrors({});
+        }, (err) => {
+          console.log('FAILED...', err);
+          alert('Failed to send the form. Please try again.');
+        });
     }
   };
 
@@ -145,4 +153,3 @@ const Contact = () => {
 };
 
 export default Contact;
-

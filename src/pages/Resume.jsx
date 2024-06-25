@@ -9,7 +9,7 @@ const proficiencies = [
   'Express',
   'MongoDB',
   'SQL',
-  'NoSQL',
+  'TailwindCSS',
   'Git',
   'RESTful APIs',
   'Responsive Design',
@@ -26,7 +26,7 @@ const Resume = () => {
         </h1>
         <div className="flex flex-col items-center mb-6 md:mb-8">
           <a
-            href="/path/to/Anica_Barrios_Resume.pdf"
+            href="/Resume.pdf"
             download
             className="bg-violet-500 text-white py-2 px-4 md:py-3 md:px-6 rounded-lg text-lg font-bold shadow-lg hover:bg-violet-700 transition duration-300 text-center"
           >
